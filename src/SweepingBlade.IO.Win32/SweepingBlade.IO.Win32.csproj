@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\SweepingBlade.IO\SweepingBlade.IO.csproj" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <DefineConstants>$(DefineConstants);FEATURE_ASYNC_FILE;FEATURE_ENUMERATION_OPTIONS;FEATURE_ADVANCED_PATH_OPERATIONS;FEATURE_PATH_JOIN_WITH_SPAN</DefineConstants>
+        <DefineConstants>$(DefineConstants);FEATURE_FILE_MOVE_WITH_OVERWRITE;FEATURE_SUPPORTED_OS_ATTRIBUTE;FEATURE_FILE_SYSTEM_WATCHER_FILTERS</DefineConstants>
+    </PropertyGroup>
+
+</Project>

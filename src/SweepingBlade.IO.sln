@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweepingBlade.IO", "SweepingBlade.IO\SweepingBlade.IO.csproj", "{388169AA-59AB-4F3A-9542-8AC38D54D8CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweepingBlade.IO.Win32", "SweepingBlade.IO.Win32\SweepingBlade.IO.Win32.csproj", "{683FA7E6-1521-4449-8750-B4183816ADAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{388169AA-59AB-4F3A-9542-8AC38D54D8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388169AA-59AB-4F3A-9542-8AC38D54D8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388169AA-59AB-4F3A-9542-8AC38D54D8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388169AA-59AB-4F3A-9542-8AC38D54D8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683FA7E6-1521-4449-8750-B4183816ADAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683FA7E6-1521-4449-8750-B4183816ADAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683FA7E6-1521-4449-8750-B4183816ADAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683FA7E6-1521-4449-8750-B4183816ADAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
